@@ -1,0 +1,246 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<meta id="viewport" content="width=device-width, inital-scale=1.0">
+       <title>Table Form</title>
+		
+		</head>
+	<body>
+		<div>
+		<h1> 
+		<form>
+			<table class="contenttable" border="2">
+			<caption style="font-size:40px";> Table with Forms </caption>
+		
+			
+			
+			
+		<thead>
+			
+		<th>Input Tag</th>
+			<th>Description</th>
+			<th>Code</th>
+			<th>Output</th>
+			
+			</thead>
+			
+			
+			<tr>
+			<td>Text</td>
+			<td>text field</td>
+			<td>&lt;label for="1name"&gt; Sur Name:&lt;/label&gt;
+			<br>
+                &lt;input type="text" id="1name"&gt</td>
+			<td><label for="1name">Sur Name:</label>
+                <input type="text" id="1name" placeholder="SurName"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Button</td>
+			<td>Gives a  a clickable button</td>
+			<td>&lt;input type="button" value="Click me"&gt;</td>
+			<td><input type="button" value="Click me"></td>
+			</tr>
+			
+			<tr>
+			<td>Checkbox</td>
+			<td>Gives a Checkbox</td>
+			<td>&ltinput type="checkbox"  id="condition"&gt;
+			<br>
+                    &ltlabel for="condition"> Agree to Terms and Conditions&lt/label&gt;</td>
+			<td><input type="checkbox"  id="condition">
+              <label for="condition"> Agree to Terms and Conditions</label></td>
+			</tr>
+			
+			
+			
+			<tr>
+			<td>Color	</td>
+			<td>Deploys a Color Picker</td>
+			<td>&ltlabel for="colorpick"&gt;Choose color:&lt/label&gt;
+			<br>
+             &ltinput type="color" id="colorpick"&gt;</td>
+			<td><label for="color">Choose color:</label>
+              <input type="color" id="colorpick"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Date</td>
+			<td>Gives a date chooser</td>
+			<td>&ltlabel for="date1"&gt;Choose Date:&lt/label&gt;
+			<br>
+              &ltinput type="date" id="date1"&gt;</td>
+			<td><label for="date1">Choose Date:</label>
+             <input type="date" id="date1"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Date and Time</td>
+			<td>Gives a date time picker</td>
+			<td>&ltlabel for="timedate"&gt;Pick a Date and Time:&lt/label&gt;
+			<br>
+                 &ltinput type="datetime-local" id="timedate"&gt;</td>
+			<td><label for="timedate">Pick a Date and Time:</label>
+                <input type="datetime-local" id="timedate"></td>
+			</tr>
+			
+			<tr>
+			<td>Email</td>
+			<td>Gives an area for emailwith automatic validation</td>
+			<td>&lt;label for="mail"&gt;Link your email:&lt/label&gt;
+			<br>
+              &ltinput type="email" id="mail"&gt;</td>
+			<td><label for="mail">Link your email:</label>
+            <input type="email" id="mail" placeholder="yourslef@example.com"></td>
+			</tr>
+			
+			<tr>
+			<td>File</td>
+			<td>Gives a file select field</td>
+			<td>&lt;label for="choosefile"&gt;Upload a file:&lt;/label&gt;
+			<br>
+                  &lt;input type="file" id="choose"&gt;</td>
+			<td><label for="choosefile">Upload a file:</label>
+              <input type="file" id="choose">
+                                 </td>
+			</tr>
+			
+			<tr>
+			<td>Image</td>
+			<td>We can choose an img as submit button </td>
+			<td>&lt;input type="image" src="C:\fabevy\practice\form-element\image\insta.jpg" alt="insta" width="30" height="30"&gt;</td>
+			<td><input type="image" src="C:\fabevy\practice\form-element\image\insta.jpg" alt="insta" width="30" height="30">
+			</tr>
+			
+			
+			<tr>
+			<td>Number</td>
+			<td>Field for entering a number with conditions</td>
+			<td>&lt;label for="agenumber"&gt;Age (between 27 and 65):&lt;/label&gt;
+			<br>
+             &lt;input type="number" id="agenumber" min="27" max="65"&gt;</td>
+			<td><label for="agenumber">Age (between 27 and 65):</label>
+                <input type="number" id="agenumber" min="27" max="65"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Password</td>
+			<td>Field for Password</td>
+			<td>&lt;label for="psw"&gt;Enter Password:&lt;/label&gt;
+			<br>
+            &lt;input type="password" id="psw"&gt;</td>
+			<td><label for="psw">Enter Password:</label>
+                <input type="password" id="psw"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Radio</td>
+			<td>Gives a radio button</td>
+			<td>&lt;input type="radio" id="radio2"&gt;
+			<br>
+                &lt;label for="radio2">Male&lt;label&gt;
+				<br>
+                &lt;input type="radio" id="radio2"&gt;
+				<br>
+                &lt;label for="radio2"&gt;Female&lt;/label&gt;</td>
+				
+			<td><input type="radio" id="radio2" value="Male">
+                <label for="radio2">Male</label>
+				
+                <input type="radio"  id="radio2" value="Female">
+                <label for="radio2">Female</label></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Range</td>
+			<td>Deploys a range picker</td>
+			<td>&lt;label for="crvalue"&gt;Compression %( 0 to 100):&lt;/label&gt;
+			<br>
+                 &lt;input type="range" id="crvalue" min="0" max="100"&gt;</td>
+			<td><label for="crvalue">Compression % ( 0 to 100):</label>
+                 <input type="range" id="crvalue" min="0" max="100"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Search</td>
+			<td>Deploys a search field text box</td>
+			<td>&lt;label for="searchtext">Search:&lt;/label&gt;
+			<br>
+             &lt;input type="search" id="searchtext"&gt;</td>
+			<td><label for="search1">Search:</label>
+               <input type="search" id="search1"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Submit</td>
+			<td>Deploys a submit button</td>
+			<td>&lt;input type="submit"&gt;</td>
+			<td><input type="submit">
+            </td>
+			</tr>
+			
+			
+			<tr>
+			<td>Phone number</td>
+			<td>Field for entering phone number</td>
+			<td>&lt;label for="call"&gt;Enter mobile number:&lt;/label&gt;
+			<br>
+               &lt;input type="tel" id="call" placeholder="91XXXXXXXX"&gt;</td>
+			<td><label for="call">Enter mobile number:</label>
+                 <input type="tel" id="call" placeholder="91XXXXXXXX"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Time</td>
+			<td>Picks a time</td>
+			<td>&lt;label for="reserv"&gt;Select reservation timing:>&lt;/label&gt;
+			<br>
+                   &lt;input type="time" id="reserv"&gt;</td>
+			<td><label for="reserv">Select reservation timing:</label>
+               <input type="time" id="reserv"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>url</td>
+			<td>Area of website with validation</td>
+			<td>&lt;label for="website"&gt;Enter  your webpsite:&lt;/label&gt;
+			<br>
+                 &lt;input type="url" id="website"&gt;</td>
+			<td><label for="website">Enter  your website:</label>
+                 <input type="url" id="website"></td>
+			</tr>
+			
+			
+			<tr>
+			<td>Week</td>
+			<td>Picks a week and year</td>
+			<td>&lt; for="weekpick"&gt;Pick a week:&lt;/label&gt;
+                  <br>&lt;input type="week" id="weekpick"&gt;</td>
+			<td><label for="weekpick">Pick a week:</label>
+                  <input type="week" id="weekpick"></td>
+			</tr>
+			
+		
+			</form>
+			</table>
+	</body>
+</html>	
+  
+  
+  
+  
+  
+  
+  
+</body>
